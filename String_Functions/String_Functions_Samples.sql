@@ -78,9 +78,56 @@ SELECT * FROM STRING_SPLIT('BTK Akademi eðitimleri ile SQL Server Eðitimi', ' ')
 SELECT * FROM STRING_SPLIT('ANKARA-SÝVAS-ÝZMÝR','-')
 
 
-
-
 --STRING FONKSÝYONLARI ALIÞTIRMALAR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,6 @@
+
+
+SELECT 'Ürün Kodu:' + ITEMCODE + CHAR(13) + 'Ürün Adý:' + ITEMNAME FROM LAB02 WHERE ID = 1
+
+
+SELECT CHAR(13)
