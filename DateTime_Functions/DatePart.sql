@@ -1,0 +1,28 @@
+
+
+--DATEPART Fonksiyonu bir tarih verisini parçalar ve böler.
+
+SELECT
+
+DATEPART(YEAR,GETDATE()) YEAR_,
+DATEPART(MONTH,GETDATE()) MONTH
+
+
+
+SELECT DATEPART(YEAR,'2022-08-06 11:11:11:443') --Sadece Yýlý alýr.
+
+
+SELECT DATEPART(MONTH,'2022-08-06 11:11:11:443') --Sadece Ay Bilgisini Alýr.
+
+
+SELECT DATEPART(DAY,'2022-08-06 11:11:11:443') --Sadece Gün Bilgisini Alýr.
+
+SELECT DATEPART(HOUR,'2022-08-06 11:11:11:443') --Sadece Saati Getirir
+
+SELECT DATEPART(MINUTE,'2022-08-06 11:11:11:443') --Sadece Dakikayý getirir.
+
+SELECT DATEPART(SECOND,'2022-08-06 11:11:11:443') --Sadece Saniyeyi getirir.
+
+SELECT DATEPART(MILLISECOND,'2022-08-06 11:11:11:443') --Sadece Mili saniyeyi getirir.
+
+SELECT DATEPART(WEEK,'2022-08-06 11:11:11:443') 

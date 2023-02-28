@@ -1,0 +1,28 @@
+
+
+--DATENAME Fonksiyonu bir tarih verisini parçalar ve böler.
+
+SELECT
+
+DATENAME(YEAR,GETDATE()) YEAR_,
+DATENAME(MONTH,GETDATE()) MONTH
+
+
+
+SELECT DATENAME(YEAR,'2022-08-06 11:11:11:443') --Sadece Yýlý alýr.
+
+
+SELECT DATENAME(MONTH,'2022-08-06 11:11:11:443') --Sadece Ay Bilgisini Alýr.
+
+
+SELECT DATENAME(DAY,'2022-08-06 11:11:11:443') --Sadece Gün Bilgisini Alýr.
+
+SELECT DATENAME(HOUR,'2022-08-06 11:11:11:443') --Sadece Saati Getirir
+
+SELECT DATENAME(MINUTE,'2022-08-06 11:11:11:443') --Sadece Dakikayý getirir.
+
+SELECT DATENAME(SECOND,'2022-08-06 11:11:11:443') --Sadece Saniyeyi getirir.
+
+SELECT DATENAME(MILLISECOND,'2022-08-06 11:11:11:443') --Sadece Mili saniyeyi getirir.
+
+SELECT DATENAME(WEEK,'2022-08-06 11:11:11:443') 
