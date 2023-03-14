@@ -1,0 +1,17 @@
+
+
+
+DECLARE @NUMBER AS INT
+SET @NUMBER = -20
+DECLARE @RESULT AS VARCHAR(100)
+
+IF @NUMBER >=0 
+BEGIN
+SET @RESULT = 'Seçilen Deðer Pozitif Bir Deðerdir.'
+END 
+ELSE
+BEGIN
+SET @RESULT = 'Seçilen Deðer Negatif Bir Deðerdir.'
+END
+
+SELECT @RESULT
