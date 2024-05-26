@@ -1,0 +1,14 @@
+
+
+SELECT * FROM LAB08
+
+
+
+--STRING_SPLIT (Kelime parçalama fonskiyonudur.)
+
+SELECT * FROM LAB09
+
+
+
+SELECT *,(SELECT COUNT(*) FROM string_split(FULLTEXT, ' ')) AS SATIRBAZLITOPLAMKELIMESAYISI
+FROM LAB09
