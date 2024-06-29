@@ -1,0 +1,11 @@
+
+
+SELECT I.ID,I.ITEMCODE,I.ITEMNAME FROM ITEMS I 
+CROSS APPLY DBO.ItemInfo2(I.ID)
+
+
+
+--USER_DEFINED_TABLE_VALUED_FUNCTIONS = CROSS APPLY Olarak güncelleyebiliriz.
+--Bu þekilde fonksiyonu çaðýrabiliriz.
+
+--INLINE TABLE VALUED FUNCTIONS Örneði.
