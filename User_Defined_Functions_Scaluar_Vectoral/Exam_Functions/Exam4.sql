@@ -10,6 +10,8 @@ Toplam kaç maç yaptýðýný, kaç yýldýz futbol oynadýðýný yazalým.
 SELECT * FROM LAB_PLAYER WHERE PLAYER_NAME LIKE '%Sefa%'
 
 
+--Inline Statement olarak yazýmý.
+
 CREATE FUNCTION DBO.GETPLAYERINFO (@PLAYERID AS INT)
 RETURNS TABLE
 AS 
